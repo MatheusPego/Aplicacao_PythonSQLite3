@@ -98,7 +98,7 @@ Relembrando:
 O “ * ” no comando, é para indicar a seleção para todos os dados dentro da tabela.
 O From direciona a qual tabela estamos enviando comandos.
 
-Script Python
+Script com Python
 
 Crio um ambiente virtual em com: python -m venv venv para não entrar em conflito com outros arquivos internos.
 
@@ -118,5 +118,29 @@ Agora, um cursor para executar comandos SQL junto a essa conexão, ele vai funci
 #Criando cursor, que utilizo para realizar comandos SQL junto a variável que se conecta ao Banco de Dados: 
 cur = conn.cursor()
 
-Início do CRUD em Python, uso de uma variável
+Importações e Conexão ao Banco de Dados
+Começo importando a biblioteca sqlite3, o que me permite trabalhar diretamente com bancos de dados SQLite no meu código Python, sem precisar abrir o terminal a cada vez. Em seguida, crio uma variável conn que estabelece a conexão direta com o banco de dados produtos.db. Para facilitar a execução de comandos SQL, também crio um cursor cur.
+
+Experiência do Usuário
+Para tornar a experiência do usuário mais intuitiva, construí um menu interativo. Usei print para mostrar as opções disponíveis, input para coletar as respostas do usuário, e algumas variáveis para armazenar essas respostas.
+
+No início do código, utilizo um loop while para manter o programa rodando continuamente. Esse loop exibe repetidamente o menu de opções até que o usuário decida sair. Isso permite que o usuário realize várias operações sem precisar reiniciar o programa.
+
+Estrutura de Condicionais
+A lógica do programa é controlada por estruturas condicionais if, elif e else:
+
+if: Verifico se uma condição é verdadeira e executo o bloco de código correspondente.
+elif: Permito verificar várias condições adicionais se as anteriores não forem verdadeiras.
+else: Executo um bloco de código se nenhuma das condições anteriores for verdadeira.
+Essas condicionais são usadas para diferentes operações:
+
+Ver todos os dados: Consulto e exibo todos os registros da tabela clientes.
+Ver um dado específico: Permito ao usuário consultar dados de uma empresa específica.
+Atualizar um dado: Permito ao usuário atualizar informações de um cliente específico.
+Deletar um dado: Permito ao usuário deletar um registro específico da tabela clientes.
+Sair: Encerro o programa.
+Encerramento da Conexão
+Se o usuário escolher sair do programa, o loop while é interrompido e a conexão com o banco de dados é encerrada. Isso é feito para garantir que todos os recursos sejam liberados corretamente, evitando problemas de conexão e mantendo a integridade dos dados.
+
+
 
