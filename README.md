@@ -1,5 +1,5 @@
 # Application-CRUD-Python-e-SQLite3
-Criação de tabela com SQLire3 e aplicação CRUD em Python, aqui você pode entender como fiz:
+Criação de tabela com SQLite3 e aplicação CRUD em Python, aqui você pode entender como fiz:
 
 Contexto: Regra de Negócio
 
