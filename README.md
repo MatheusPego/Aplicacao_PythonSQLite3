@@ -3,8 +3,7 @@ Criação de tabela com SQLite3 e aplicação CRUD em Python, aqui você pode en
 
 Contexto: Regra de Negócio
 
-Devido a DTI promover soluções para transformação digital para diversas empresas, escolhi o recurso Produto. Engloba diversas possíveis áreas e possíveis demandas digitais. Realizei uma curta pesquisa sobre clientes DTI, e inseri 3 clientes ou ex clientes com possíveis demandas comuns. Seguindo as especificações do Case Técnico, adaptei as minhas ideias, utilizando meu raciocínio, contexto da regra de negócio e conhecimento em lógica de programação, e na linguagem Python em conjunto ao SQLite. Veja brevemente minha linha de raciocínio em 10 passos, e após esses 10 passos avance mais no documento para entender junto ao passo a passo: 
-
+promover soluções para transformação digital para diversas empresas, escolhi o recurso Produto. Engloba diversas possíveis áreas e possíveis demandas digitais.
 
 Baixei o SQLite para utilizar no meu PC Windows.
 Criei um diretório DTI_case na minha máquina, descompactei a pasta com os arquivos do SQLite e transferi para o diretório criado.
