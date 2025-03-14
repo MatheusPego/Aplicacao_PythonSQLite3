@@ -1,9 +1,7 @@
 # Application-CRUD-Python-e-SQLite3
 Criação de tabela com SQLite3 e aplicação CRUD em Python, aqui você pode entender como fiz:
 
-Contexto: Regra de Negócio
-
-promover soluções para transformação digital para diversas empresas, escolhi o recurso Produto. Engloba diversas possíveis áreas e possíveis demandas digitais.
+Contexto: Regra de Negócio, demandas e clientes.
 
 Baixei o SQLite para utilizar no meu PC Windows.
 Criei um diretório DTI_case na minha máquina, descompactei a pasta com os arquivos do SQLite e transferi para o diretório criado.
