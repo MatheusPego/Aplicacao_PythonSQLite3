@@ -1,4 +1,4 @@
-# Application-CRUD-Python-e-SQLite3
+# Aplicação com Python e SQLite3
 Criação de tabela com SQLite3 e aplicação CRUD em Python, aqui você pode entender como fiz:
 
 Contexto: Regra de Negócio, demandas e clientes.
